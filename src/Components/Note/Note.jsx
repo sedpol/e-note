@@ -1,6 +1,7 @@
+import "./Note.css";
 export const Note = (props) => (
-  <div>
-    <div>{props.note.title}</div>
-    <div>{props.note.content}</div>
+  <div className="note">
+    <h2>{props.note.title}</h2>
+    <p>{props.note.content}</p>
   </div>
 );
