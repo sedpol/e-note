@@ -1,6 +1,11 @@
 import addIcon from "../../assets/img/plus.svg";
 import "./AddNote.css";
 
-export const AddNote = () => (
-  <img className="add_note" src={addIcon} alt="Add Note" />
+export const AddNote = (props) => (
+  <img
+    onClick={props.addNoteHandler}
+    className="add-note"
+    src={addIcon}
+    alt="Add Note"
+  />
 );

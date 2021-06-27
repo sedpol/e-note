@@ -1,9 +1,11 @@
 .note {
-  padding: 15px;
-  margin: 15px;
+  padding: 1rem;
+  margin: 1rem;
   background-color: #f1f0cf;
   flex-shrink: 0;
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.16rem 1.6rem #f1f0cf;
+  color: black;
 }
